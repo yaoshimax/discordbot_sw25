@@ -13,7 +13,7 @@ SW2.5のキャラ作成ダイスを行ってくれるDiscord用 bot
 
 - 認証トークンは以下の`Click to Reveal Token` をクリックすると表示されます。
 
-![tokenl](./img/token.png)
+<image src="./img/token.PNG" width="600" />
 
 
 - sw35.goの`{{REPLACE_AUTHENTICATION_TOKEN}}` を認証トークンの文字列に置換してください
@@ -28,9 +28,10 @@ $ go build sw25.go
 
 #### botをサーバに登録する方法
 - discordの開発者用シーンからアプリケーション管理画面の `Oauth2` を選択し、URIをコピーします
-![get_uri](./img/add_application.png)
+<image src="./img/add_application.PNG" width="600" />
+
 - コピーしたURIをブラウザでひらくと、「サーバに追加」以下のセレクトボックスからサーバを選択できるので、botを追加したいサーバを選択します
-![select_server](./img/select_server.png)
+<image src="./img/select_server.PNG" width="600" />
 
 以上で指定のサーバにbotのユーザを追加できます
 
@@ -49,4 +50,4 @@ Discordからこのbotを利用するときは、botユーザがサーバでオ�
 
 現在はルールブック3にまで掲載されている種族名が利用可能のはずです。
 
-![bot_example](./img/bot_result.png)
+<image src="./img/bot_result.PNG" width="600" />
