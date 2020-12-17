@@ -16,7 +16,7 @@ SW2.5のキャラ作成ダイスを行ってくれるDiscord用 bot
 <image src="./img/token.PNG" width="600" />
 
 
-- sw35.goの`{{REPLACE_AUTHENTICATION_TOKEN}}` を認証トークンの文字列に置換してください
+- sw25.goの`{{REPLACE_AUTHENTICATION_TOKEN}}` を認証トークンの文字列に置換してください
 
 #### ビルド
  
